@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="SIVACConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SIVACConnectionString (Settings)" PropertyReference="ApplicationSettings.Crystal_4.Properties.Settings.GlobalReference.Default.SIVACConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="REPORTE_USUARIOSTableAdapter" GeneratorDataComponentClassName="REPORTE_USUARIOSTableAdapter" Name="REPORTE_USUARIOS" UserDataComponentName="REPORTE_USUARIOSTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SIVACConnectionString (Settings)" DbObjectName="REPORTE_USUARIOS" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        ESTATUS, R_LOCK, USUARIO, [PASSWORD], FECHA_ALTA, FECHA_BAJA, COMENTARIOS, [TIMESTAMP], ACTUALIZO
+FROM            REPORTE_USUARIOS</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ESTATUS" DataSetColumn="ESTATUS" />
+              <Mapping SourceColumn="R_LOCK" DataSetColumn="R_LOCK" />
+              <Mapping SourceColumn="USUARIO" DataSetColumn="USUARIO" />
+              <Mapping SourceColumn="PASSWORD" DataSetColumn="PASSWORD" />
+              <Mapping SourceColumn="FECHA_ALTA" DataSetColumn="FECHA_ALTA" />
+              <Mapping SourceColumn="FECHA_BAJA" DataSetColumn="FECHA_BAJA" />
+              <Mapping SourceColumn="COMENTARIOS" DataSetColumn="COMENTARIOS" />
+              <Mapping SourceColumn="TIMESTAMP" DataSetColumn="TIMESTAMP" />
+              <Mapping SourceColumn="ACTUALIZO" DataSetColumn="ACTUALIZO" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="REPORTE_USUARIOS" msprop:Generator_TableClassName="REPORTE_USUARIOSDataTable" msprop:Generator_TableVarName="tableREPORTE_USUARIOS" msprop:Generator_TablePropName="REPORTE_USUARIOS" msprop:Generator_RowDeletingName="REPORTE_USUARIOSRowDeleting" msprop:Generator_RowChangingName="REPORTE_USUARIOSRowChanging" msprop:Generator_RowEvHandlerName="REPORTE_USUARIOSRowChangeEventHandler" msprop:Generator_RowDeletedName="REPORTE_USUARIOSRowDeleted" msprop:Generator_UserTableName="REPORTE_USUARIOS" msprop:Generator_RowChangedName="REPORTE_USUARIOSRowChanged" msprop:Generator_RowEvArgName="REPORTE_USUARIOSRowChangeEvent" msprop:Generator_RowClassName="REPORTE_USUARIOSRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ESTATUS" msprop:Generator_ColumnVarNameInTable="columnESTATUS" msprop:Generator_ColumnPropNameInRow="ESTATUS" msprop:Generator_ColumnPropNameInTable="ESTATUSColumn" msprop:Generator_UserColumnName="ESTATUS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="R_LOCK" msprop:Generator_ColumnVarNameInTable="columnR_LOCK" msprop:Generator_ColumnPropNameInRow="R_LOCK" msprop:Generator_ColumnPropNameInTable="R_LOCKColumn" msprop:Generator_UserColumnName="R_LOCK" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="USUARIO" msprop:Generator_ColumnVarNameInTable="columnUSUARIO" msprop:Generator_ColumnPropNameInRow="USUARIO" msprop:Generator_ColumnPropNameInTable="USUARIOColumn" msprop:Generator_UserColumnName="USUARIO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PASSWORD" msprop:Generator_ColumnVarNameInTable="columnPASSWORD" msprop:Generator_ColumnPropNameInRow="PASSWORD" msprop:Generator_ColumnPropNameInTable="PASSWORDColumn" msprop:Generator_UserColumnName="PASSWORD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FECHA_ALTA" msprop:Generator_ColumnVarNameInTable="columnFECHA_ALTA" msprop:Generator_ColumnPropNameInRow="FECHA_ALTA" msprop:Generator_ColumnPropNameInTable="FECHA_ALTAColumn" msprop:Generator_UserColumnName="FECHA_ALTA" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FECHA_BAJA" msprop:Generator_ColumnVarNameInTable="columnFECHA_BAJA" msprop:Generator_ColumnPropNameInRow="FECHA_BAJA" msprop:Generator_ColumnPropNameInTable="FECHA_BAJAColumn" msprop:Generator_UserColumnName="FECHA_BAJA" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="COMENTARIOS" msprop:Generator_ColumnVarNameInTable="columnCOMENTARIOS" msprop:Generator_ColumnPropNameInRow="COMENTARIOS" msprop:Generator_ColumnPropNameInTable="COMENTARIOSColumn" msprop:Generator_UserColumnName="COMENTARIOS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TIMESTAMP" msprop:Generator_ColumnVarNameInTable="columnTIMESTAMP" msprop:Generator_ColumnPropNameInRow="TIMESTAMP" msprop:Generator_ColumnPropNameInTable="TIMESTAMPColumn" msprop:Generator_UserColumnName="TIMESTAMP" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ACTUALIZO" msprop:Generator_ColumnVarNameInTable="columnACTUALIZO" msprop:Generator_ColumnPropNameInRow="ACTUALIZO" msprop:Generator_ColumnPropNameInTable="ACTUALIZOColumn" msprop:Generator_UserColumnName="ACTUALIZO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:REPORTE_USUARIOS" />
+      <xs:field xpath="mstns:USUARIO" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

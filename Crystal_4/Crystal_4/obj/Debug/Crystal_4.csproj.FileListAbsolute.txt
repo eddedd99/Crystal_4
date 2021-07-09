@@ -1,0 +1,12 @@
+d:\users\eduardo.cruces\documents\visual studio 2013\Projects\Crystal_4\Crystal_4\bin\Debug\Crystal_4.exe.config
+d:\users\eduardo.cruces\documents\visual studio 2013\Projects\Crystal_4\Crystal_4\bin\Debug\SIVAC.accdb
+d:\users\eduardo.cruces\documents\visual studio 2013\Projects\Crystal_4\Crystal_4\bin\Debug\Crystal_4.exe
+d:\users\eduardo.cruces\documents\visual studio 2013\Projects\Crystal_4\Crystal_4\bin\Debug\Crystal_4.pdb
+d:\users\eduardo.cruces\documents\visual studio 2013\Projects\Crystal_4\Crystal_4\obj\Debug\Crystal_4.csprojResolveAssemblyReference.cache
+d:\users\eduardo.cruces\documents\visual studio 2013\Projects\Crystal_4\Crystal_4\obj\Debug\Crystal_4.Form1.resources
+d:\users\eduardo.cruces\documents\visual studio 2013\Projects\Crystal_4\Crystal_4\obj\Debug\Crystal_4.Properties.Resources.resources
+d:\users\eduardo.cruces\documents\visual studio 2013\Projects\Crystal_4\Crystal_4\obj\Debug\Crystal_4.csproj.GenerateResource.Cache
+d:\users\eduardo.cruces\documents\visual studio 2013\Projects\Crystal_4\Crystal_4\obj\Debug\RdlCompile.cache
+d:\users\eduardo.cruces\documents\visual studio 2013\Projects\Crystal_4\Crystal_4\obj\Debug\RdlCompile.compiled
+d:\users\eduardo.cruces\documents\visual studio 2013\Projects\Crystal_4\Crystal_4\obj\Debug\Crystal_4.exe
+d:\users\eduardo.cruces\documents\visual studio 2013\Projects\Crystal_4\Crystal_4\obj\Debug\Crystal_4.pdb
