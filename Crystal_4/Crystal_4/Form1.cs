@@ -28,11 +28,17 @@ namespace Crystal_4
             //Paso 3. Configurar Table Adapter (Con el query a utilizar)
             //Paso 4. Botón derecho en Crystal_4 > Add > New Item > Reporting > Report (sin wizard)
             //Paso 5. Seleccionar Form1 y agregar componente ReportViewer
+            //Application.ExitThread.
             
             // TODO: This line of code loads data into the 'DataSet1.REPORTE_USUARIOS' table. You can move, or remove it, as needed.
             this.REPORTE_USUARIOSTableAdapter.Fill(this.DataSet1.REPORTE_USUARIOS);
-
             this.reportViewer1.RefreshReport();
+            //new Form2().Show();            
+       }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new Form2().Show();
         }
     }
 }

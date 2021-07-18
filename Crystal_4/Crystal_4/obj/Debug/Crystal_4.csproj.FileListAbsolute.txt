@@ -10,3 +10,4 @@ d:\users\eduardo.cruces\documents\visual studio 2013\Projects\Crystal_4\Crystal_
 d:\users\eduardo.cruces\documents\visual studio 2013\Projects\Crystal_4\Crystal_4\obj\Debug\RdlCompile.compiled
 d:\users\eduardo.cruces\documents\visual studio 2013\Projects\Crystal_4\Crystal_4\obj\Debug\Crystal_4.exe
 d:\users\eduardo.cruces\documents\visual studio 2013\Projects\Crystal_4\Crystal_4\obj\Debug\Crystal_4.pdb
+D:\Users\eduardo.cruces\Documents\Visual Studio 2013\Projects\Crystal_4\Crystal_4\obj\Debug\Crystal_4.Form2.resources

@@ -29,53 +29,64 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
-            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
-            this.DataSet1 = new Crystal_4.DataSet1();
+            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource2 = new Microsoft.Reporting.WinForms.ReportDataSource();
             this.REPORTE_USUARIOSBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.DataSet1 = new Crystal_4.DataSet1();
+            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.REPORTE_USUARIOSTableAdapter = new Crystal_4.DataSet1TableAdapters.REPORTE_USUARIOSTableAdapter();
-            ((System.ComponentModel.ISupportInitialize)(this.DataSet1)).BeginInit();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.REPORTE_USUARIOSBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataSet1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // reportViewer1
-            // 
-            this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            reportDataSource1.Name = "DataSet1";
-            reportDataSource1.Value = this.REPORTE_USUARIOSBindingSource;
-            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
-            this.reportViewer1.LocalReport.ReportEmbeddedResource = "Crystal_4.Report1.rdlc";
-            this.reportViewer1.Location = new System.Drawing.Point(0, 0);
-            this.reportViewer1.Name = "reportViewer1";
-            this.reportViewer1.Size = new System.Drawing.Size(724, 416);
-            this.reportViewer1.TabIndex = 0;
-            // 
-            // DataSet1
-            // 
-            this.DataSet1.DataSetName = "DataSet1";
-            this.DataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // REPORTE_USUARIOSBindingSource
             // 
             this.REPORTE_USUARIOSBindingSource.DataMember = "REPORTE_USUARIOS";
             this.REPORTE_USUARIOSBindingSource.DataSource = this.DataSet1;
             // 
+            // DataSet1
+            // 
+            this.DataSet1.DataSetName = "DataSet1";
+            this.DataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // reportViewer1
+            // 
+            reportDataSource2.Name = "DataSet1";
+            reportDataSource2.Value = this.REPORTE_USUARIOSBindingSource;
+            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource2);
+            this.reportViewer1.LocalReport.ReportEmbeddedResource = "Crystal_4.Report1.rdlc";
+            this.reportViewer1.Location = new System.Drawing.Point(0, 0);
+            this.reportViewer1.Name = "reportViewer1";
+            this.reportViewer1.Size = new System.Drawing.Size(623, 416);
+            this.reportViewer1.TabIndex = 0;
+            // 
             // REPORTE_USUARIOSTableAdapter
             // 
             this.REPORTE_USUARIOSTableAdapter.ClearBeforeFill = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(644, 30);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(66, 73);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(724, 416);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.reportViewer1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.DataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.REPORTE_USUARIOSBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataSet1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -86,6 +97,7 @@
         private System.Windows.Forms.BindingSource REPORTE_USUARIOSBindingSource;
         private DataSet1 DataSet1;
         private DataSet1TableAdapters.REPORTE_USUARIOSTableAdapter REPORTE_USUARIOSTableAdapter;
+        private System.Windows.Forms.Button button1;
     }
 }
 
